@@ -26,6 +26,7 @@ public class CampFire : MonoBehaviour
     {
         if(other.gameObject.TryGetComponent(out IDamagable damagable))
         {
+            Debug.Log("!!!!!");
             thingsToDamage.Add(damagable);
         }
     }

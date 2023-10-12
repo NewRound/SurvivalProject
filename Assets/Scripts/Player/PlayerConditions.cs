@@ -104,6 +104,7 @@ public class PlayerConditions : MonoBehaviour, IDamagable
 
     public void TakePhysicalDamage(int damageAmount)
     {
+        Debug.Log($"damageAmount : {damageAmount}, health : {health.curValue}");
         health.Subtract(damageAmount);
         onTakeDamage?.Invoke();
     }
