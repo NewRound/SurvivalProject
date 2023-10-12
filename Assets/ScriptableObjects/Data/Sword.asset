@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed0ed5fd55505b4cbe0ae30d42f1572, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  displayName: "\uCE7C"
+  description: "\uACF5\uACA9\uC6A9 \uCE7C\uC785\uB2C8\uB2E4."
+  type: 1
+  icon: {fileID: 21300000, guid: 4f2f320a217307a48a107491b1d17ebb, type: 3}
+  dropPrefab: {fileID: 681610833224315081, guid: d2a0a3e48689fc244827676561162188, type: 3}
+  canStack: 0
+  maxStackAmount: 0
+  consumables: []
+  equipPrefab: {fileID: 5433353783150634946, guid: 487d94a2bd611c64c857661e792548b2, type: 3}
